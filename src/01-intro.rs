@@ -1,5 +1,3 @@
-
-
 use std::str::FromStr;
 
 fn main() {
@@ -8,9 +6,7 @@ fn main() {
     //    2. Change the type to `miniscript::DummyKey`. What breaks?
     //    3. Change the key to an invalid EC key. What breaks?
     let my_descriptor = miniscript::Descriptor::<miniscript::bitcoin::PublicKey>::from_str(
-//        "wsh(pk(020202020202020202020202020202020202020202020202020202020202020202))",
-        "wsh(pk(040202020202020202020202020202020202020202020202020202020202020202\
-                  0502020202020202020202020202020202020202020202020202020202020202))",
+        "wsh(pk(020202020202020202020202020202020202020202020202020202020202020202))"
     )
     .unwrap();
 
@@ -29,4 +25,3 @@ fn main() {
     // The `Debug` output has a lot more information
     println!("My descriptor: {:?}", my_descriptor);
 }
-
