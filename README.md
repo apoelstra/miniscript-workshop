@@ -9,6 +9,8 @@ Useful links:
 * Miniscript site: http://bitcoin.sipa.be/miniscript/
 * rust-miniscript repo: https://github.com/apoelstra/rust-miniscript/
 * rust-miniscript dox: https://docs.rs/miniscript/
+* [What does Bitcoin policy language offer the developer that Miniscript doesn't?](https://bitcoin.stackexchange.com/questions/91565)
+
 
 To run things specify the binary like
 
