@@ -1,0 +1,33 @@
+[package]
+name = "miniscript-workshop"
+version = "0.1.0"
+authors = ["Andrew Poelstra <apoelstra@wpsoftware.net>"]
+license = "CC0-1.0"
+description = "Advancing Bitcoin 2020 Miniscript Workshop Repo"
+readme = "README.md"
+edition = "2018"
+
+[[bin]]
+name = "intro"
+path = "src/01-intro.rs"
+
+[[bin]]
+name = "types"
+path = "src/02-types.rs"
+
+[[bin]]
+name = "script"
+path = "src/03-script.rs"
+
+[[bin]]
+name = "satisfy"
+path = "src/04-satisfy.rs"
+
+[[bin]]
+name = "lifting"
+path = "src/05-lifting.rs"
+
+
+[dependencies]
+miniscript = "0.12"
+
